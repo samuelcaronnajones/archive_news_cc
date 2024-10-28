@@ -46,11 +46,11 @@ if __name__ == "__main__":
 
     params = {
         'q': query,
-        'fl[]': 'identifier',
-        'sort[]': '',
+        # 'fl[]': 'identifier',
+        # 'sort[]': '',
         'rows': args.count,
         'page': 1,
-        'callback': 'callback',
+        # 'callback': 'callback',
         'output': 'csv'
     }
 
